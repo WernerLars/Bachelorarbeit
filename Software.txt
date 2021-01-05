@@ -1,0 +1,7 @@
+git+https://github.com/flatironinstitute/spikeforest2.git@b18e6407e5e2b8582d1901a5e884bd6514646a1e	
+git+https://github.com/SpikeInterface/spikeinterface.git@12ff2c641373208cd77caa6299a96a5a5b243a1a
+git+https://github.com/mhhennig/HS2.git@45665a2b64384bf6757bdd92c72e84e0c2a203fa
+git+https://github.com/kwikteam/klusta.git@408e898e8d5dd1788841d1f682e51d0dc003a296
+git+https://github.com/kwikteam/klustakwik2.git@415c945fa795f62f6dad4d017ccd59323a719d51
+git+https://github.com/spyking-circus/spyking-circus.git@7a5b8af38c7d1ce0fb2c01638062ed5f87e0ff34
+git+https://github.com/tridesclous/tridesclous.git@d80f2621825563f4d7af7e9c6ff93d1fd37cc68a
