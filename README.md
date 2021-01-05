@@ -6,8 +6,7 @@
 - Signal Toolbox  
 - Image Processing Toolbox  
 	
-### Visual Studio 19  
-#### Under Workloads choose Desktop C++
+### Visual Studio 19 (Under Workloads choose Desktop C++)
 - MSVC v142 VS 2019 C++ x64 Buildtools  
 - Windows 10 SDK (10.0.183.62.0)  
 - Just in Time Debugger  
@@ -16,7 +15,8 @@
 - C++ ATL v142 Buildtools  
 
 ### MPICH:  https://www.microsoft.com/en-us/download/details.aspx?id=100593 (needed for Spyking Circus)  
-#### you need do install msmpisetup.exe and msmpisdk.msi  
+- msmpisetup.exe  
+- msmpisdk.msi  
 
 
 # Open CMD in the cloned Gitlab Repository  
@@ -68,14 +68,14 @@ git checkout bfa34eaabeab75429d6e233b58bd1583c1872205
 
 ## Now Close CMD
 
-#Tridesclous installs older version of pyqtgraph which has an old version of ptime that is incompatilbe with Python Version 3.8.6 ( time has no attribute clock )  
-#Fix: Replace ptime.py in the Folder venv\Lib\site-packages\pyqtgraph with fixed version in my repository  
+### Tridesclous installs older version of pyqtgraph which has an old version of ptime that is incompatilbe with Python Version 3.8.6 ( time has no attribute clock )  
+### Fix: Replace ptime.py in the Folder venv\Lib\site-packages\pyqtgraph with fixed version in my repository  
 
 ## Set Systemvariables for:
 
-KACHERY_STORAGE_DIR 	# InstalledPath/data  	
-IRONCLUST_PATH		# InstalledPath/ironclust  
-WAVECLUS_PATH		# InstalledPath/wave_clus  
+- KACHERY_STORAGE_DIR 	(InstalledPath/data) 
+- IRONCLUST_PATH	(InstalledPath/ironclust)  
+- WAVECLUS_PATH		(InstalledPath/wave_clus)  
 
 ## Start Program  
 
@@ -87,4 +87,4 @@ venv\Scripts\activate.bat
 ### Run Jupyter Notebook  
 jupyter notebook
 
-#Choose Spike_Sorting_Pipeline.ipynb
+# Choose Spike_Sorting_Pipeline.ipynb in Jupyter Notebook
