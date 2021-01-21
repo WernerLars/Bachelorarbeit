@@ -1,0 +1,1 @@
+In this Folder graphic of recordings and spike sorting results will be saved and stored
