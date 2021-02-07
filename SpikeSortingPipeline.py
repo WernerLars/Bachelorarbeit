@@ -54,11 +54,12 @@ def printRecordingData(recordings):
         print('Number of channels:', num_chan)
     
         sorting_true = rec[2]
-        unit_ids = sorting_true.get_unit_ids()
-        spike_train = sorting_true.get_unit_spike_train(unit_id=unit_ids[0])
+        if sorting_true != "":
+            unit_ids = sorting_true.get_unit_ids()
+            spike_train = sorting_true.get_unit_spike_train(unit_id=unit_ids[0])
 
-        print('Unit ids:', unit_ids)
-        print('Spike train of first unit:', spike_train, "\n")
+            print('Unit ids:', unit_ids)
+            print('Spike train of first unit:', spike_train, "\n")
         
         
 # These Methods prints Timeseries,Geometry,Spectrum,Spectogram,
@@ -67,7 +68,7 @@ def printRecordingData(recordings):
 def printTimeseries(recordings):
     
     for recording in recordings:  
-        plot = sw.plot_timeseries(recording[1],  channel_ids = [0,1] , trange=[0,0.01])
+        plot = sw.plot_timeseries(recording[1])#, channel_ids = [0,1], trange=[0,50])
         plot.figure.suptitle(recording[0][0]+" : "+recording[0][1])
         plot.figure.savefig("figures/"+"timeseries_"+recording[0][0])
         
