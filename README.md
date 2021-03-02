@@ -87,4 +87,4 @@ venv\Scripts\activate.bat
 ### Run Jupyter Notebook  
 jupyter notebook
 
-# Choose Spike_Sorting_Pipeline.ipynb in Jupyter Notebook
+# Choose Spike_Sorting_Pipeline.ipynb or Use_Case.ipynb in Jupyter Notebook
