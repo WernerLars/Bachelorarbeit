@@ -478,7 +478,7 @@ def printPerformance(sorter_list):
 def compareSorters(sorter_entry):
 
     # Parameter
-        # sorter_entry   : entry of the recording list with its sorting results
+        # sorter_list   : list of recording with its results
     # No Returns
     
     # Comparing every sorter with each other
@@ -511,7 +511,7 @@ def compareMultipleSorters(sorter_list):
         # sorter_list   : list of recording with its results
     # No Returns
 
-    # Printing Multicomparion graphs for every recording
+    # Printing Multicomparion graphs
     for rec in sorter_list:
         sorters = list()
         for sorter in rec[1]:
